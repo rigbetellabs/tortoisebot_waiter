@@ -24,7 +24,7 @@ Flexbe allows us to simplify the intricate robot behaviour. You can use gotogoal
 Currently robot can go to two goals using this behavior while avoiding the obstacle. However, you can always add more states if you want to navigate to more goals.
 Remember to build the workspace using catkin _make before using Flexbe app
 How to use flexbe:.
- roslaunch tortoisebot_gazebo tortoisebot_playground.launch
+ roslaunch tortoisebot_gazebo tortoisebot_playground.launch (dont change the sequence launch the simulation first)
  roslaunch flexbe_app flexbe_full.launch
  And load the tortoisebot behavior which will be available by default.
  ---------------------------------------------------------------------------------------------------------------------------------------
