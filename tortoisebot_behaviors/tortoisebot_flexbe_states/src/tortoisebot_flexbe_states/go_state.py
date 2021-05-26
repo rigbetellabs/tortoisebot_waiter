@@ -61,7 +61,7 @@ class GoState(EventState):
             
             else:
                 self.cmd_pub.angular.z=0.5
-                self.cmd_pub.linear.x=0
+                
 
         
         
