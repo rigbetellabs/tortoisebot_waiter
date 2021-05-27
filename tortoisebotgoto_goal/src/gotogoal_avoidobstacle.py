@@ -93,7 +93,7 @@ while not rospy.is_shutdown():
             
     else:
         move.linear.x=0
-        move.angular.z=0.5     
+        move.angular.z=0.3     
         print('obstacle is there')
 
     if dist<0.1:
