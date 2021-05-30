@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Go">
+
+	<executable package_path="tortoisebot_flexbe_behaviors.go_sm" class="GoSM" />
+	<tagstring></tagstring>
+	<author>srt</author>
+	<date>Sat May 29 2021</date>
+	<description>
+		hey
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
