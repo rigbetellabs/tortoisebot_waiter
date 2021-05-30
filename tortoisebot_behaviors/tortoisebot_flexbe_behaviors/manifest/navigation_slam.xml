@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Navigation_Slam">
+
+	<executable package_path="tortoisebot_flexbe_behaviors.navigation_slam_sm" class="Navigation_SlamSM" />
+	<tagstring></tagstring>
+	<author>Shubham Takbhate</author>
+	<date>Sat May 29 2021</date>
+	<description>
+		This will use navigation package.
+More gaols can be added
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
