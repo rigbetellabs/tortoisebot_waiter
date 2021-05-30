@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Gotogoal">
+
+	<executable package_path="tortoisebot_flexbe_behaviors.gotogoal_sm" class="GotogoalSM" />
+	<tagstring></tagstring>
+	<author>srt</author>
+	<date>Sat May 29 2021</date>
+	<description>
+		Can go to different goals
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
