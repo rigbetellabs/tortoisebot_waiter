@@ -42,6 +42,6 @@ if __name__ == '__main__':
         if GoalStatus.SUCCEEDED != navigation_result_status:
             rospy.logerr('Navigation to the desired goal failed :(. Sorry, try again!)')
         else:
-            rospy.loginfo('Hooray! Successfully reached the desired goal!')
+            rospy.loginfo('Successfully reached the desired goal!')
     except rospy.ROSInterruptException:
         rospy.loginfo("Interrupt received to stop ROS node.")
