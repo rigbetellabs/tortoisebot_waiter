@@ -8,24 +8,32 @@ git clone https://github.com/team-vigir/flexbe_behavior_engine.git
 git clone https://github.com/FlexBE/flexbe_app.git
 
 New packages:
-tortoisebotgoto_goal- There are three different scripts in the src folder for this package.
-goto_goal.py  
-gotogoal_avoidobstacle.py
-obstacle_avoiding.py
-Each can used by typing the command:
-rosrun tortoisebotgoto_goal goto_goal.py (use for navigating goal without avoiding obstacle)
-rosrun tortoisebotgoto_goal gotogoal_avoidobstacle.py (use for navigating to goal while avoiding obstacle)
-rosrun tortoisebotgoto_goal obstacle_avoiding.py (use for avoiding  obstacle with a constant linear velocity)
+tortoisebotgoto_goal this packege contains python script for navigating to a goal using movebase. 
+Enter the coordinate where you want sent the robot 
+rosrun tortoisebotgoto_goal.py gottogoal.py x-coordinate y-coordinate
+for example 
+rosrun tortoisebotgoto_goal.py gottogoal.py -0.4 0.3
 
 
 Flexbe states:
 Flexbe allows us to simplify the intricate robot behaviour. You can use gotogoal behaviour for navigating tortoisebot to multiple goals. 
-Currently robot can go to two goals using this behavior while avoiding the obstacle. However, you can always add more states if you want to navigate to more goals.
+MOVEBASESATE- This state allows us to navigate the robot to a goal.You can navigate the robot by adding as many states you want. However you need to add waypoints in Pose2D format. Currently there are few waypoints defiened as per the playground but you can add more waypoints if required. 
+How to add more state?
+select tortoisebot behavior from the flexbe gui.
+and from that navigation_to_goal behaviour
+Click on state machine editor.
+Click on add state and select movebasestate
+Since there is already one behaviour present for your refrence.
 Remember to build the workspace using catkin _make before using Flexbe app
 How to use flexbe:.
- roslaunch tortoisebot_gazebo tortoisebot_playground.launch (dont change the sequence launch the simulation first)
+ roslaunch tortoisebot_gazebo tortoisebot_playground.launch
+ roslaunch tortoisebot_firmware server_bringup.launch
+ roslaunch tortoisebot_navigation tortoisebot_navigation.launch
  roslaunch flexbe_app flexbe_full.launch
- And load the tortoisebot behavior which will be available by default.
+ 
+ select tortoisebot behavior from the flexbe gui.
+ and from that navigation_to_goal behaviour
+ 
 
 
 
