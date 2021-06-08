@@ -2,12 +2,11 @@
 In hotels we have to send robot to multiple tables. Hence we can't manually run scripts everytime for changing goals. 
 We can use a statemachine which will send the robot to different goals.
 
-----------------------------------------------------------------------------------------------------------------------------
 Install flexbe before testing:
 Installing flexbe into src folder of your workspace
 git clone https://github.com/team-vigir/flexbe_behavior_engine.git 
 git clone https://github.com/FlexBE/flexbe_app.git
--------------------------------------------------------------------------------------------------------------------
+
 New packages:
 tortoisebotgoto_goal- There are three different scripts in the src folder for this package.
 goto_goal.py  
