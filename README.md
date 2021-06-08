@@ -16,7 +16,7 @@ Each can used by typing the command:
 rosrun tortoisebotgoto_goal goto_goal.py (use for navigating goal without avoiding obstacle)
 rosrun tortoisebotgoto_goal gotogoal_avoidobstacle.py (use for navigating to goal while avoiding obstacle)
 rosrun tortoisebotgoto_goal obstacle_avoiding.py (use for avoiding  obstacle with a constant linear velocity)
-------------------------------------------------------------------------------------------------------------------------------------
+
 
 Flexbe states:
 Flexbe allows us to simplify the intricate robot behaviour. You can use gotogoal behaviour for navigating tortoisebot to multiple goals. 
@@ -26,7 +26,7 @@ How to use flexbe:.
  roslaunch tortoisebot_gazebo tortoisebot_playground.launch (dont change the sequence launch the simulation first)
  roslaunch flexbe_app flexbe_full.launch
  And load the tortoisebot behavior which will be available by default.
- ---------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
