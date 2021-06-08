@@ -3,6 +3,7 @@ In hotels we have to send robot to multiple tables. Hence we can't manually run 
 We can use a statemachine which will send the robot to different goals.
 
 Install flexbe before testing:
+Refer https://github.com/FlexBE/flexbe_app for more details
 
 Installing flexbe into src folder of your workspace
 
