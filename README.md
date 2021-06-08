@@ -3,16 +3,23 @@ In hotels we have to send robot to multiple tables. Hence we can't manually run 
 We can use a statemachine which will send the robot to different goals.
 
 Install flexbe before testing:
+
 Installing flexbe into src folder of your workspace
+
 git clone https://github.com/team-vigir/flexbe_behavior_engine.git 
+
 git clone https://github.com/FlexBE/flexbe_app.git
 
 New packages:
 tortoisebotgoto_goal this packege contains python script for navigating to a goal using movebase. 
+
 Enter the coordinate where you want sent the robot 
+
 rosrun tortoisebotgoto_goal.py gottogoal.py x-coordinate y-coordinate
+
 for example 
-rosrun tortoisebotgoto_goal.py gottogoal.py -0.4 0.3
+r
+osrun tortoisebotgoto_goal.py gottogoal.py -0.4 0.3
 
 
 Flexbe states:
@@ -25,6 +32,7 @@ Click on state machine editor.
 Click on add state and select movebasestate
 Since there is already one behaviour present for your refrence.
 Remember to build the workspace using catkin _make before using Flexbe app
+
 How to use flexbe:.
  roslaunch tortoisebot_gazebo tortoisebot_playground.launch
  roslaunch tortoisebot_firmware server_bringup.launch
